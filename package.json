@@ -1,0 +1,28 @@
+{
+  "name": "fastly-wasm-challenge",
+  "version": "1.0.0",
+  "description": "Try next-compute-js",
+  "main": "index.js",
+  "scripts": {
+    "fastly-serve": "next build && cd compute-js && fastly compute serve",
+    "fastly-publish": "next build && cd compute-js && fastly compute publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piroz/fastly-wasm-challenge.git"
+  },
+  "keywords": [
+    "next-compute-js"
+  ],
+  "author": "piroz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piroz/fastly-wasm-challenge/issues"
+  },
+  "homepage": "https://github.com/piroz/fastly-wasm-challenge#readme",
+  "dependencies": {
+    "next": "^12.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
