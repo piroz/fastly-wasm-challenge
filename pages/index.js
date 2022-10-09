@@ -1,5 +1,8 @@
 export default function Index() {
     return (
-        <div>Hello, World!</div>
+        <div>
+            <a href="./ssr">server side rendering</a><br/>
+            <a href="./nossr">no ssr</a>
+        </div>
     );
 };

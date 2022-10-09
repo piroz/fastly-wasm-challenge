@@ -13,6 +13,7 @@ Your Name <your@email.addr>
 
 ```
 $ npm install
+$ npx next build
 $ npx @fastly/next-compute-js
 $ npm run fastly-publish
 ```
